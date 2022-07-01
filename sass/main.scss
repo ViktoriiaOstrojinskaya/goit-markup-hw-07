@@ -1,4 +1,6 @@
 @import './utils/variables';
+@import './utils/mixins';
+@import '.base/reset';
 
 @import './components/logo';
 @import './components/page-header';
@@ -13,5 +15,3 @@
 @import './components/holder';
 @import './components/pictures';
 @import './components/modal';
-
-

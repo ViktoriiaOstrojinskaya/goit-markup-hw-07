@@ -14,10 +14,8 @@
 }
 
 .footer-list {
+  @include font(null, 14px, 1.71, nul0.03em);
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 .footer-item:not(:last-child) {
@@ -28,12 +26,22 @@
   color: var(--second-color);
 
   transition: color 250ms var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--akcent-color);
+  }
 }
 
 .footer-link {
   color: var(--footer-color);
 
   transition: color 250ms var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--akcent-color);
+  }
 }
 
 .footer-web {
@@ -48,16 +56,6 @@
   color: var(--second-color);
 }
 
-.footer-link:hover,
-.footer-link:focus {
-  color: var(--akcent-color);
-}
-
-.footer-address:hover,
-.footer-address:focus {
-  color: var(--akcent-color);
-}
-
 .footer-soc-list {
   display: flex;
   justify-content: center;
@@ -68,10 +66,10 @@
   height: 44px;
   width: 44px;
   margin-left: 10px;
-}
 
-.footer-soc-item:first-child {
-  margin-left: 0;
+  &:first-child {
+    margin-left: 0;
+  }
 }
 
 .footer-soc-link {
@@ -86,15 +84,15 @@
   color: var(--second-color);
 
   transition: background-color 250ms var(--timing-function);
+
+  &:hover,
+  &:focus {
+    background-color: var(--akcent-color);
+  }
 }
 
 .footer-soc-icon {
   fill: currentColor;
-}
-
-.footer-soc-link:hover,
-.footer-soc-link:focus {
-  background-color: var(--akcent-color);
 }
 
 .footer-soc-section {
@@ -104,9 +102,8 @@
 }
 
 .soc-title,
-.footer-subs-title{
-  font-weight: 700;
-  line-height: 1.14;
+.footer-subs-title {
+  @include font(null, 700, 1.14, null);
   text-transform: uppercase;
   color: var(--second-color);
 }

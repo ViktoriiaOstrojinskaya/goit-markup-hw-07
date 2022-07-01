@@ -8,10 +8,9 @@
     height: 92px;
     width: 170px;
     margin-left: 30px;
-  }
-  
-  .clients-soc-item:first-child {
-    margin-left: 0;
+    &:first-child {
+      margin-left: 0;
+    }
   }
   
   .clients-soc-link {
@@ -26,14 +25,16 @@
     color: var(--icon-fill);
   
     transition: border 250ms var(--timing-function), color 250ms var(--timing-function);
+
+    &:hover,
+    &:focus {
+      border: 1px solid var(--akcent-color);
+      color: var(--akcent-color);
+    }
   }
   
   .clients-soc-icon {
     fill: currentColor;
   }
   
-  .clients-soc-link:hover,
-  .clients-soc-link:focus {
-    border: 1px solid var(--akcent-color);
-    color: var(--akcent-color);
-  }
+ 
