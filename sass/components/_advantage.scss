@@ -1,20 +1,20 @@
-.advantege-title {
+.advantage__title {
   margin-bottom: 10px;
 }
 
-.advantege-list {
+.advantage__list {
   display: flex;
   flex-wrap: wrap;
 }
 
-.advantege-item {
+.advantage__item {
   width: 270px;
   &:not(:last-child) {
     margin-right: 30px;
   }
 }
 
-.advantege-icons-list {
+.advantage-icons__list {
   display: flex;
   height: 120px;
   align-items: center;
@@ -25,12 +25,12 @@
   margin-bottom: 30px;
 }
 
-.advantege-icons {
+.advantage__icons {
   width: 100%;
   height: 100%;
 }
 
-.advantege-subtitle {
+.advantage__subtitle {
   margin-bottom: 10px;
 
   @include font(14px, 700, 1.14, null);
@@ -39,14 +39,9 @@
   color: var(--main-color);
 }
 
-.advantege-text {
+.advantage__text {
   line-height: 1.71;
   color: var(--text-color);
 }
 
-.about-title,
-.team-title,
-.clients-title {
-  @include font(700, 36px, 1.16, null);
-  color: var(--title-color);
-}
+

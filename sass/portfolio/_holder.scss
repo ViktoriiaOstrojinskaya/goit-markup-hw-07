@@ -1,11 +1,15 @@
-.holder-btns {
+.holder {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.holder-btn {
+.holder__item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.holder__btn {
   border: 0px;
   min-width: 73px;
   padding: 6px 24px;
@@ -31,6 +35,4 @@
   }
 }
 
-.holder-item:not(:last-child) {
-  margin-right: 8px;
-}
+

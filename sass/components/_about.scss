@@ -2,16 +2,18 @@
   padding-top: 0;
 }
 
-.about-title {
+.about__title {
+  @include font(700, 36px, 1.16, null);
+  color: var(--title-color);
   margin-bottom: 50px;
 }
 
-.about-list {
+.about__list {
   display: flex;
   flex-wrap: wrap;
 }
 
-.about-item {
+.about__item {
   width: 370px;
   position: relative;
   &:not(:last-child) {
@@ -19,7 +21,7 @@
   }
 }
 
-.about-actions-title {
+.about__caption {
   position: absolute;
   display: flex;
 

@@ -12,7 +12,7 @@
   text-align: center;
 }
 
-.hero-title {
+.hero__title {
   margin-bottom: 30px;
 
   @include font(44px, 900, 1.36, 0.06em);
@@ -21,7 +21,7 @@
   color: var(--main-title-color);
 }
 
-.hero-btn {
+.hero__btn {
   border: 0px;
   display: inline-block;
   padding: 10px 32px;
