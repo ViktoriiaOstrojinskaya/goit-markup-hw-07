@@ -10,11 +10,9 @@
   color: var(--second-color);
 }
 
-
 .footer-subs__form {
   display: flex;
 }
-
 
 .footer-subs__input {
   width: 358px;
@@ -29,7 +27,7 @@
 
   transition: border-color 250ms var(--timing-function);
 
-  &s:focus,
+  &:focus,
   &:hover {
     outline: transparent;
     border-color: var(--akcent-color);

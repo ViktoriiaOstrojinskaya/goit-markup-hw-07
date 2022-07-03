@@ -1,9 +1,9 @@
 @import './utils/variables';
+@import './base/reset';
 @import './utils/mixins';
-@import '.base/reset';
 
 @import './components/logo';
-@import './components/page-header';
+@import './components/header';
 @import './components/hero';
 @import './components/advantage';
 @import './components/about';
@@ -11,6 +11,7 @@
 @import './components/clients';
 @import './components/footer';
 @import './components/subs';
-@import './portfolio/holder';
-@import './portfolio/gallery';
 @import './components/modal';
+@import './portfolio/holder';
+@import './components/modal';
+@import './portfolio/gallery';

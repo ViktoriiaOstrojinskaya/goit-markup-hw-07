@@ -7,7 +7,6 @@
   align-items: center;
 }
 
-
 .menu {
   display: flex;
   margin-left: 93px;
@@ -82,12 +81,9 @@
   &:focus {
     color: var(--akcent-color);
   }
-
 }
 
 .contact__icon {
   fill: currentColor;
   margin-right: 10px;
 }
-
-

@@ -4,7 +4,7 @@
 
 .team__title {
   margin-bottom: 50px;
-  @include font(700, 36px, 1.16, null);
+  @include font(36px, 700, 1.16, null);
   color: var(--title-color);
 }
 
@@ -38,7 +38,7 @@
   color: var(--main-color);
 }
 
-.team-text {
+.team__text {
   @include font(16px, null, 1.18, null);
   text-align: center;
   color: var(--text-color);
@@ -82,4 +82,3 @@
 .social-list__icon {
   fill: currentColor;
 }
-
