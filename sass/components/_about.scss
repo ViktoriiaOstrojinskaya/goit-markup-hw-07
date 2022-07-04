@@ -30,8 +30,7 @@
   bottom: 0;
   left: 0;
 
-  align-items: center;
-  justify-content: center;
+  @include placing(center, center);
   @include font(null, 700, 1.14, null);
   text-transform: uppercase;
 

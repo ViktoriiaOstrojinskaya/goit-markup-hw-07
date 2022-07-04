@@ -4,3 +4,8 @@
   line-height: $lheight;
   letter-spacing: $lspacing;
 }
+
+@mixin placing($a-items, $j-content) {
+  align-items: $a-items;
+  justify-content: $j-content;
+}

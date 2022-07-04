@@ -17,8 +17,7 @@
 .advantage-icons__list {
   display: flex;
   height: 120px;
-  align-items: center;
-  justify-content: center;
+  @include placing(center, center);
 
   background: #f5f4fa;
   border-radius: 4px;
@@ -43,5 +42,3 @@
   line-height: 1.71;
   color: var(--text-color);
 }
-
-

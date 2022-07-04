@@ -4,7 +4,7 @@
 
 .nav {
   display: flex;
-  align-items: center;
+  @include placing(center, null);
 }
 
 .menu {
@@ -51,13 +51,12 @@
 
 .contact {
   display: flex;
-  align-items: center;
+  @include placing(center, null);
   margin-left: auto;
 }
 
 .contact__item {
-  align-items: center;
-  justify-content: center;
+  @include placing(center, center);
   background-size: contain;
 
   &:not(:last-child) {
@@ -68,7 +67,7 @@
 .contact__mail,
 .contact__tel {
   display: flex;
-  align-items: center;
+  @include placing(center, null);
   padding-top: 32px;
   padding-bottom: 32px;
 

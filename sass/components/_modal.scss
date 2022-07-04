@@ -45,8 +45,7 @@
   background-color: var(--icon-bgc);
 
   display: flex;
-  align-items: center;
-  justify-self: center;
+  @include placing(center, center);
 
   cursor: pointer;
 
@@ -155,7 +154,7 @@
   color: var(--text-color);
 
   display: flex;
-  align-items: center;
+  @include placing(center, null);
 }
 
 .check-text a {
@@ -169,8 +168,7 @@
   margin-right: 8.38px;
 
   display: flex;
-  align-items: center;
-  justify-content: center;
+  @include placing(center, center);
 
   transition: border-color 250ms var(--timing-function);
 }
