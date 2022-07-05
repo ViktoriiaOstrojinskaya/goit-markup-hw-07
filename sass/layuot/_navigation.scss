@@ -1,4 +1,4 @@
-.nav {
+  .nav {
     display: flex;
     @include placing(center, null);
   }
@@ -31,7 +31,6 @@
   
   .menu__link.current::after {
     content: '';
-  
     position: absolute;
     left: 0;
     bottom: 0;
@@ -42,6 +41,10 @@
   
     background: var(--akcent-color);
     border-radius: 2px;
+  }
+
+  .current {
+    color: var(--akcent-color);
   }
   
 

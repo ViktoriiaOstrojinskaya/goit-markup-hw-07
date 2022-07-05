@@ -285,6 +285,10 @@ img {
   border-radius: 2px;
 }
 
+.current {
+  color: var(--akcent-color);
+}
+
 .hero__btn {
   border: 0px;
   display: inline-block;
